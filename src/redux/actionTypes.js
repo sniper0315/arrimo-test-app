@@ -1,0 +1,6 @@
+export const AUTHENTICATE = "AUTHENTICATE";
+export const DEAUTHENTICATE = "DEAUTHENTICATE";
+export const RESTORE_AUTH_STATE = "RESTORE_AUTH_STATE";
+export const ADD_USER = 'ADD_USER';
+export const UPDATE_USER = 'UPDATE_USER';
+export const DELETE_USER = 'DELETE_USER';
