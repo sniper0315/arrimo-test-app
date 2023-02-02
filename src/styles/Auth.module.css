@@ -1,44 +1,93 @@
-.loginContainer {
-  width: 100%;
-  min-height: calc(100vh - 80px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.authContainer {
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 0;
 }
 
 .loginForm {
-  border: 1px solid #7e7c7c;
-  border-radius: 8px;
-  padding: 24px 40px;
-  min-width: 380px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+    border: 1px solid #7e7c7c;
+    border-radius: 8px;
+    padding: 24px 40px;
+    min-width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.loginFormTitleSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
 }
 
 .loginFormTitle {
-  color: white;
-  font-size: 40px;
-  text-align: center;
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.loginFormWelcome {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .icons {
-  color: grey;
+    color: grey;
 }
 
-.loginFormItem {
-  margin-bottom: 40px;
+.loginFormItemWithMargin {
+    margin-bottom: 28px;
 }
 
 .loginFormItemNoMargin {
-  margin: 0;
+    margin: 0;
+}
+
+.loginFormInput {
+    height: 46px;
 }
 
 .loginButton {
-  width: 100%;
-  height: 36px;
+    width: 100%;
+    height: 46px;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: none;
 }
 
 .loginButton:focus {
-  outline: none;
+    outline: none;
+}
+
+.divider {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.loginSignup {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.loginSignupButton {
+    color: #007fed;
+}
+
+.loginSignupButton:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.registerDatePicker {
+    height: 46px;
+    width: 100%;
 }

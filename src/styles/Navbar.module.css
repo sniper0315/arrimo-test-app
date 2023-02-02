@@ -1,15 +1,15 @@
 .container {
-  width: 100%;
-  height: 80px;
-  background: grey;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 32px;
+    width: 100%;
+    height: 80px;
+    background: #007fed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 32px;
 }
 
 .navItem {
-  color: unset;
-  font-size: unset;
-  cursor: pointer;
+    color: unset;
+    font-size: unset;
+    cursor: pointer;
 }
