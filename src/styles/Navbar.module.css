@@ -13,3 +13,31 @@
     font-size: unset;
     cursor: pointer;
 }
+
+.calendarPage {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendarContainer {
+    width: 600px;
+}
+
+.icons {
+    color: grey;
+}
+
+.eventAddPanel {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 0;
+}
+
+.fcPopover {
+    background: black;
+    border: 1px solid #7c7d7d;
+}

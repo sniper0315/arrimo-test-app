@@ -156,7 +156,7 @@ li {
 .ant-btn-default {
     background: transparent;
     border-color: #007fed;
-    color: white;
+    color: #007fed;
 }
 
 .ant-picker {
@@ -260,6 +260,11 @@ li {
 
 .ant-pagination .ant-pagination-item-active {
     background-color: transparent;
+}
+
+.fc-theme-standard .fc-popover {
+    background: black !important;
+    border: 1px solid #7c7d7d !important;
 }
 
 @media (prefers-color-scheme: dark) {

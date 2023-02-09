@@ -7,19 +7,16 @@ import { useEffect } from 'react';
 import { getCookie } from 'cookies-next';
 
 import { logoutUser } from '@/redux/actions/auth';
-import database from '@/middleware/database';
 
 import styles from '@/styles/Home.module.css';
 
 export const getServerSideProps = async ({ req, res }) => {
-    await database();
-
     const token = getCookie('user_token', { req, res });
 
     if (!token) return { props: { isAuthenticated: false } };
 
     try {
-        const isAuthenticated = await jwt.verify(token, 'soccerscouting4u-secret-key');
+        const isAuthenticated = await jwt.verify(token, process.env.JWT_SECRET);
         return { props: { isAuthenticated: isAuthenticated } };
     } catch (err) {
         return { props: { isAuthenticated: false } };
