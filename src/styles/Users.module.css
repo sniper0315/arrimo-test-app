@@ -1,40 +1,40 @@
 .userPanel {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  width: 100%;
-  padding: 24px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    padding: 24px 48px;
 }
 
 .title {
-  color: white;
-  font-size: 36px;
+    color: white;
+    font-size: 36px;
 }
 
 .add {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .addButton {
-  width: 120px;
-  height: 36px;
-  display: flex;
-  align-items: center;
+    width: 120px;
+    height: 36px;
+    display: flex;
+    align-items: center;
 }
 
 .addButton:focus {
-  outline: none;
+    outline: none;
 }
 
 .userAddPanel {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 0;
 }
 
 .icons {
-  color: grey;
+    color: grey;
 }
